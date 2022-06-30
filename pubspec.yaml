@@ -1,4 +1,4 @@
-name: lunar_calendar
+name: vi_lunar_calendar
 description: Vietnamese lunar calendar application for macos, linux, windows, web, ios, android
 
 publish_to: 'none' 
@@ -14,6 +14,12 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   provider: ^6.0.3
+  lunar_calendar: ^1.0.1
+  table_calendar: ^3.0.6
+  intl: ^0.17.0
+  bitsdojo_window: 0.1.2
+  english_words: ^4.0.0
+  system_tray: ^0.1.1
 
 dev_dependencies:
   flutter_test:
@@ -24,8 +30,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/icons/
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
